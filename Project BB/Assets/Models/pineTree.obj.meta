@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: b4a6759f60002fb4eb88cf5b63a97cbb
+timeCreated: 1463854504
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone1_kerstboom:polySurface1
+    100002: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone2_kerstboom:polySurface1
+    100004: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone1_kerstboom:polySurface1
+    100006: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone2_kerstboom:polySurface1
+    100008: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone3_kerstboom:polySurface1
+    100010: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCone1_kerstboom:polySurface1
+    100012: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCylinder1_kerstboom:polySurface1
+    100014: //RootNode
+    400000: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone1_kerstboom:polySurface1
+    400002: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone2_kerstboom:polySurface1
+    400004: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone1_kerstboom:polySurface1
+    400006: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone2_kerstboom:polySurface1
+    400008: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone3_kerstboom:polySurface1
+    400010: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCone1_kerstboom:polySurface1
+    400012: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCylinder1_kerstboom:polySurface1
+    400014: //RootNode
+    2300000: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone1_kerstboom:polySurface1
+    2300002: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone2_kerstboom:polySurface1
+    2300004: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone1_kerstboom:polySurface1
+    2300006: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone2_kerstboom:polySurface1
+    2300008: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone3_kerstboom:polySurface1
+    2300010: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCone1_kerstboom:polySurface1
+    2300012: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCylinder1_kerstboom:polySurface1
+    3300000: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone1_kerstboom:polySurface1
+    3300002: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone2_kerstboom:polySurface1
+    3300004: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone1_kerstboom:polySurface1
+    3300006: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone2_kerstboom:polySurface1
+    3300008: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone3_kerstboom:polySurface1
+    3300010: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCone1_kerstboom:polySurface1
+    3300012: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCylinder1_kerstboom:polySurface1
+    4300000: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone1_kerstboom:polySurface1
+    4300002: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pasted__pCone2_kerstboom:polySurface1
+    4300004: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone1_kerstboom:polySurface1
+    4300006: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone2_kerstboom:polySurface1
+    4300008: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pasted__pCone3_kerstboom:polySurface1
+    4300010: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCone1_kerstboom:polySurface1
+    4300012: kerstboom:group5_kerstboom:group6_kerstboom:group7_kerstboom:group8_kerstboom:group9_kerstboom:group10_kerstboom:group11_kerstboom:pCylinder1_kerstboom:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
