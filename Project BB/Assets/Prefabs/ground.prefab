@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489672}
+  - 64: {fileID: 6498430}
   m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
@@ -80,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.067014694, y: -1.3876877, z: 0.97001743}
+  m_LocalPosition: {x: -20.006044, y: 0.68323797, z: 1.934608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 458592}
@@ -153,6 +154,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192658}
   m_Mesh: {fileID: 4300000, guid: e654e80f3bc3f7146861f61d50a4035a, type: 3}
+--- !u!64 &6498430
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 4300002, guid: e654e80f3bc3f7146861f61d50a4035a, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
