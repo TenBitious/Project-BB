@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 4262f9b2449ea964fb37c4b3b1687b9d
+timeCreated: 1463922995
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group7_pasted__pCylinder3
+    100004: group7_pCylinder2
+    100006: pasted__pCylinder2_group7
+    100008: spike
+    100010: spike_group10
+    100012: spike_group11
+    100014: spike_group8
+    100016: spike_group9
+    100018: spike_pasted__group10_group12
+    100020: spike_pasted__group10_group13
+    100022: spike_pasted__group10_group15
+    100024: spike_pasted__pasted__group10_pasted__group13_group16
+    100026: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group17
+    100028: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group18
+    100030: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group19
+    100032: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group20
+    100034: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group21
+    100036: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group22
+    100038: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group25
+    100040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
+    100042: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
+    400000: //RootNode
+    400002: group7_pasted__pCylinder3
+    400004: group7_pCylinder2
+    400006: pasted__pCylinder2_group7
+    400008: spike
+    400010: spike_group10
+    400012: spike_group11
+    400014: spike_group8
+    400016: spike_group9
+    400018: spike_pasted__group10_group12
+    400020: spike_pasted__group10_group13
+    400022: spike_pasted__group10_group15
+    400024: spike_pasted__pasted__group10_pasted__group13_group16
+    400026: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group17
+    400028: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group18
+    400030: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group19
+    400032: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group20
+    400034: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group21
+    400036: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group22
+    400038: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group25
+    400040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
+    400042: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
+    2300000: group7_pasted__pCylinder3
+    2300002: group7_pCylinder2
+    2300004: pasted__pCylinder2_group7
+    2300006: spike
+    2300008: spike_group10
+    2300010: spike_group11
+    2300012: spike_group8
+    2300014: spike_group9
+    2300016: spike_pasted__group10_group12
+    2300018: spike_pasted__group10_group13
+    2300020: spike_pasted__group10_group15
+    2300022: spike_pasted__pasted__group10_pasted__group13_group16
+    2300024: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group17
+    2300026: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group18
+    2300028: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group19
+    2300030: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group20
+    2300032: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group21
+    2300034: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group22
+    2300036: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group25
+    2300038: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
+    2300040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
+    3300000: group7_pasted__pCylinder3
+    3300002: group7_pCylinder2
+    3300004: pasted__pCylinder2_group7
+    3300006: spike
+    3300008: spike_group10
+    3300010: spike_group11
+    3300012: spike_group8
+    3300014: spike_group9
+    3300016: spike_pasted__group10_group12
+    3300018: spike_pasted__group10_group13
+    3300020: spike_pasted__group10_group15
+    3300022: spike_pasted__pasted__group10_pasted__group13_group16
+    3300024: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group17
+    3300026: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group18
+    3300028: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group19
+    3300030: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group20
+    3300032: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group21
+    3300034: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group22
+    3300036: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group25
+    3300038: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
+    3300040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
+    4300000: group7_pasted__pCylinder3
+    4300002: group7_pCylinder2
+    4300004: pasted__pCylinder2_group7
+    4300006: spike
+    4300008: spike_group10
+    4300010: spike_group11
+    4300012: spike_group8
+    4300014: spike_group9
+    4300016: spike_pasted__group10_group12
+    4300018: spike_pasted__group10_group13
+    4300020: spike_pasted__group10_group15
+    4300022: spike_pasted__pasted__group10_pasted__group13_group16
+    4300024: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group17
+    4300026: spike_pasted__pasted__pasted__group10_pasted__pasted__group13_pasted__group16_group18
+    4300028: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group19
+    4300030: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group20
+    4300032: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group21
+    4300034: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group22
+    4300036: spike_pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__group13_pasted__pasted__group16_pasted__group18_group25
+    4300038: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
+    4300040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
