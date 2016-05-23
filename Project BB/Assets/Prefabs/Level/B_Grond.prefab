@@ -42,6 +42,7 @@ GameObject:
   - 4: {fileID: 443878}
   - 33: {fileID: 3300202}
   - 23: {fileID: 2392756}
+  - 64: {fileID: 6408770}
   m_Layer: 0
   m_Name: pCylinder2
   m_TagString: Untagged
@@ -156,6 +157,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115040}
   m_Mesh: {fileID: 4300000, guid: 6bddede46a579a74f9f4cdee9f921d01, type: 3}
+--- !u!64 &6408770
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300002, guid: 6bddede46a579a74f9f4cdee9f921d01, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
