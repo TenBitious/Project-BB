@@ -830,6 +830,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &481622793 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 163270, guid: baa0035396f056d40a2f74e4d3d2799a, type: 2}
+  m_PrefabInternal: {fileID: 1600764068}
+--- !u!136 &481622794
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 481622793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 10
+  m_Direction: 1
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!1001 &565444115
 Prefab:
   m_ObjectHideFlags: 0
@@ -1955,7 +1972,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5492338, guid: ef3668384ea506b44bafa417e758b31e, type: 2}
       propertyPath: m_AngularDrag
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5492338, guid: ef3668384ea506b44bafa417e758b31e, type: 2}
       propertyPath: m_Constraints
@@ -2305,7 +2322,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 496220, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -21.3
+      value: -19.19
       objectReference: {fileID: 0}
     - target: {fileID: 496220, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2313,7 +2330,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496220, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -11
+      value: -15.05
       objectReference: {fileID: 0}
     - target: {fileID: 496220, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2361,6 +2378,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5492338, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
       propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447788, guid: c3abc10bd5c53af4fa309200745db4c2, type: 2}
+      propertyPath: destroyTime
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2591,7 +2612,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496220, guid: 5bf82fbd8ed4ad345bed870e295355b6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.52194
+      value: -15.99
       objectReference: {fileID: 0}
     - target: {fileID: 496220, guid: 5bf82fbd8ed4ad345bed870e295355b6, type: 2}
       propertyPath: m_LocalRotation.x
