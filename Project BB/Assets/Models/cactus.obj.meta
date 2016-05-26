@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 4262f9b2449ea964fb37c4b3b1687b9d
-timeCreated: 1463922995
+guid: 56b52becfd9a20f43b4c48972b249cd5
+timeCreated: 1464180947
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
     100002: group7_pasted__pCylinder3
-    100004: group7_pCylinder2
-    100006: pasted__pCylinder2_group7
+    100004: pCylinder2_group7
+    100006: pCylinder3
     100008: spike
     100010: spike_group10
     100012: spike_group11
@@ -29,8 +29,8 @@ ModelImporter:
     100042: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
     400000: //RootNode
     400002: group7_pasted__pCylinder3
-    400004: group7_pCylinder2
-    400006: pasted__pCylinder2_group7
+    400004: pCylinder2_group7
+    400006: pCylinder3
     400008: spike
     400010: spike_group10
     400012: spike_group11
@@ -50,8 +50,8 @@ ModelImporter:
     400040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
     400042: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
     2300000: group7_pasted__pCylinder3
-    2300002: group7_pCylinder2
-    2300004: pasted__pCylinder2_group7
+    2300002: pCylinder2_group7
+    2300004: pCylinder3
     2300006: spike
     2300008: spike_group10
     2300010: spike_group11
@@ -71,8 +71,8 @@ ModelImporter:
     2300038: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
     2300040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
     3300000: group7_pasted__pCylinder3
-    3300002: group7_pCylinder2
-    3300004: pasted__pCylinder2_group7
+    3300002: pCylinder2_group7
+    3300004: pCylinder3
     3300006: spike
     3300008: spike_group10
     3300010: spike_group11
@@ -92,8 +92,8 @@ ModelImporter:
     3300038: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group23
     3300040: spike_pasted__pasted__pasted__pasted__pasted__group10_pasted__pasted__pasted__pasted__group13_pasted__pasted__pasted__group16_pasted__pasted__group18_pasted__group22_group24
     4300000: group7_pasted__pCylinder3
-    4300002: group7_pCylinder2
-    4300004: pasted__pCylinder2_group7
+    4300002: pCylinder2_group7
+    4300004: pCylinder3
     4300006: spike
     4300008: spike_group10
     4300010: spike_group11
