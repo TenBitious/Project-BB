@@ -19,6 +19,7 @@ public class Dodgeball : MonoBehaviour
     Rigidbody m_rigidBody;
     public float destroyTime;
     private string ownerName;
+    private GameObject owner;
     public Vector3 ballVelocity;
     [HideInInspector]
     public bool useGravity = true;
@@ -31,26 +32,30 @@ public class Dodgeball : MonoBehaviour
     void Start()
     {
        // Destroy(gameObject, destroyTime);
+        
     }
 
     void Awake()
     {
         m_State = DodgeballState.active;
         m_rigidBody = GetComponent<Rigidbody>();
-        m_rigidBody.useGravity = useGravity;
-
-        SetVelocity(ballVelocity);
+       // m_rigidBody.useGravity = useGravity;
     }
 
     // Update is called once per frame
     void Update()
+    {
+        CheckAirTime();
+
+    }
+
+    private void CheckAirTime()
     {
         inAirTime -= Time.deltaTime;
         if (inAirTime < 0 && m_State == DodgeballState.active)
         {
             SetNonActive();
         }
-
     }
 
     private void SetHitObject()
@@ -58,7 +63,7 @@ public class Dodgeball : MonoBehaviour
         m_rigidBody.useGravity = true;
         if (!unstoppable) m_rigidBody.velocity = Vector3.zero;
         m_State = DodgeballState.hitObject;
-        Debug.Log("Set ball hitobject");
+        //Debug.Log("Set ball hitobject");
     }
 
     private void SetNonActive()
@@ -71,7 +76,7 @@ public class Dodgeball : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        Debug.Log(col.gameObject.name);
+        //Debug.Log(col.gameObject.name);
         if (m_State == DodgeballState.active)
         {
             

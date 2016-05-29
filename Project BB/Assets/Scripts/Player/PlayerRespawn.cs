@@ -1,0 +1,50 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class PlayerRespawn : MonoBehaviour {
+
+    public Vector3 spawnPosition;
+
+    private GameObject player;
+    private GameObject water;
+    private GameObject groundTiles;
+    private Ground[] ground;
+    private Ground setSpawnPoint;
+    private int spawnPointIndex;
+
+
+	// Use this for initialization
+	void Start () {
+        player = this.gameObject;
+        water = GameObject.FindGameObjectWithTag("Water");
+        groundTiles = GameObject.FindGameObjectWithTag("GroundTiles");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+    void Respawn()
+    {
+        
+        ground = groundTiles.GetComponentsInChildren<Ground>();
+
+        spawnPointIndex = Random.Range(0, ground.Length - 1);
+        setSpawnPoint = ground[spawnPointIndex];
+        this.spawnPosition = setSpawnPoint.spawnPosition;
+
+        player.gameObject.transform.position = spawnPosition;
+
+
+        
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject == water.gameObject)
+        {
+            Respawn();
+        }
+    }
+}
