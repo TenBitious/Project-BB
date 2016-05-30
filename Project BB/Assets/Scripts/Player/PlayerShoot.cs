@@ -12,11 +12,14 @@ public class PlayerShoot : MonoBehaviour {
 
     public float ballSpeed;
 
+    private PlayerInfo m_Player_Info;
+
 	// Use this for initialization
 	void Start () 
     {
         ball_Current = Ball;
         ball_Start_Location = GetComponentInChildren<ShootLocation>().transform.position;
+        m_Player_Info = GetComponent<PlayerInfo>();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +31,7 @@ public class PlayerShoot : MonoBehaviour {
 
     void CheckInput()
     {
-        if (Input.GetButtonDown("Joy_1_Button_5"))
+        if (Input.GetButtonDown("Joy_" + m_Player_Info.PlayerNumber + "_Button_5"))
         {
             Shoot();
         }

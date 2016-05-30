@@ -14,11 +14,13 @@ public class PlayerController : MonoBehaviour {
 
     public float movementSpeed;
 
+    private PlayerInfo m_Player_Info;
 
 	// Use this for initialization
 	void Start () 
     {
         m_Rigidbody = GetComponent<Rigidbody>();
+        m_Player_Info = GetComponent<PlayerInfo>();
 	}
 	
 	// Update is called once per frame
@@ -39,11 +41,11 @@ public class PlayerController : MonoBehaviour {
 
     void GetControllerInput()
     {
-        m_Horizontal_Axis_Left = Input.GetAxis("Joy_1_Axis_1");
-        m_Vertical_Axis_Left = Input.GetAxis("Joy_1_Axis_2");
+        m_Horizontal_Axis_Left = Input.GetAxis("Joy_"+m_Player_Info.PlayerNumber+"_Axis_1");
+        m_Vertical_Axis_Left = -Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_2");
 
-        m_Horizontal_Axis_Right = -Input.GetAxis("Joy_1_Axis_4");
-        m_Vertical_Axis_Right = Input.GetAxis("Joy_1_Axis_5");
+        m_Horizontal_Axis_Right = -Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_4");
+        m_Vertical_Axis_Right = Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_5");
     }
 
     void HandleMovement()

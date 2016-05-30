@@ -11,20 +11,24 @@ public class ControllerDebug : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-	    for(int i = 1; i < 16; i++)
+        for (int z = 1; z < 5; z++)
         {
-            if (Input.GetAxis("Joy_1_Axis_" + i) != 0)
+            for (int i = 1; i < 16; i++)
             {
-                Debug.Log("Axis " + i + ": " + Input.GetAxis("Joy_1_Axis_" + i));
+                if (Input.GetAxis("Joy_"+z+"_Axis_" + i) != 0)
+                {
+                    Debug.Log("Controller: " +z+ "Axis " + i + ": " + Input.GetAxis("Joy_" + z + "_Axis_" + i));
+                }
+
             }
-                
-        }
-        for (int i = 0; i < 16; i++)
-        {
-            if(Input.GetButtonDown("Joy_1_Button_"+i))
+            for (int i = 0; i < 16; i++)
             {
-                Debug.Log("Button "+i+" pressed "+ Input.GetButtonDown("Joy_1_Button_"+i));
+                if (Input.GetButtonDown("Joy_" + z + "_Button_" + i))
+                {
+                    Debug.Log("Controller: " + z + "Button " + i + " pressed " + Input.GetButtonDown("Joy_" + z + "_Button_" + i));
+                }
             }
         }
+	    
 	}
 }
