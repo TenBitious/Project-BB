@@ -39,11 +39,11 @@ public class PlayerController : MonoBehaviour {
 
     void GetControllerInput()
     {
-        m_Horizontal_Axis_Left = Input.GetAxis("P1_Horizontal_Left");
-        m_Vertical_Axis_Left = Input.GetAxis("P1_Vertical_Left");
+        m_Horizontal_Axis_Left = Input.GetAxis("Joy_1_Axis_1");
+        m_Vertical_Axis_Left = Input.GetAxis("Joy_1_Axis_2");
 
-        m_Horizontal_Axis_Right = Input.GetAxis("P1_Horizontal_Right");
-        m_Vertical_Axis_Right = Input.GetAxis("P1_Vertical_Right");
+        m_Horizontal_Axis_Right = -Input.GetAxis("Joy_1_Axis_4");
+        m_Vertical_Axis_Right = Input.GetAxis("Joy_1_Axis_5");
     }
 
     void HandleMovement()

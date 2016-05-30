@@ -28,7 +28,7 @@ public class PlayerShoot : MonoBehaviour {
 
     void CheckInput()
     {
-        if (Input.GetButtonDown("P1_Button_Fire"))
+        if (Input.GetButtonDown("Joy_1_Button_5"))
         {
             Shoot();
         }
