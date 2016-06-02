@@ -44,6 +44,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 462854}
   m_RootOrder: 0
@@ -54,8 +55,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.54, y: 3.8, z: -3.05}
+  m_LocalPosition: {x: 2.6249127, y: 0.37496537, z: -5.116134}
   m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 402740}
   m_Father: {fileID: 0}
@@ -70,7 +72,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: e1d5825d7d938a940b6e475bdf81de0b, type: 2}
+  - {fileID: 2100000, guid: b46ef402261ca1349855cfb2cc823266, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -121,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyTime: 10
   ballVelocity: {x: 0, y: 10, z: 0}
+  power: 5
   useGravity: 1
   inAirTime: 4
   unstoppable: 0

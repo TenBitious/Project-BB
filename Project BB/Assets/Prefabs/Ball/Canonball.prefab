@@ -102,10 +102,10 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111404}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 20
   m_Drag: 0.1
   m_AngularDrag: 10
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -123,8 +123,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyTime: 1
   ballVelocity: {x: 0, y: 0, z: 0}
-  useGravity: 0
-  inAirTime: 3
+  power: 5
+  useGravity: 1
+  inAirTime: 0.5
   unstoppable: 0
 --- !u!135 &13533890
 SphereCollider:

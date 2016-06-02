@@ -21,10 +21,11 @@ public class Dodgeball : MonoBehaviour
     private string ownerName;
     private GameObject owner;
     public Vector3 ballVelocity;
+    public float power = 2;
     [HideInInspector]
     public bool useGravity = true;
     [HideInInspector]
-    public float inAirTime = 4;
+    public float inAirTime = 1;
 
     public bool unstoppable = false;
 
@@ -83,10 +84,10 @@ public class Dodgeball : MonoBehaviour
             if (col.gameObject.tag == "Player" && col.gameObject.name != OwnerName)
             {
                 SetHitObject();
-                //Player p = col.gameObject.GetComponent<Player>();
-                //p.StartKnockBack(transform.position, velocityDir);
+                PlayerKnockBack pKB = col.gameObject.GetComponent<PlayerKnockBack>();
+                pKB.StartKnockBack(transform.position, m_rigidBody.velocity, power);
                 Debug.Log("Hit player");
-
+                Destroy(this.gameObject);
             }
             //Destroy(this.gameObject);
         }

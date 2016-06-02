@@ -5,6 +5,7 @@ public class Ground : MonoBehaviour {
 
 
     private SpawnPoint spawnPoint;
+    public bool canSpawn = true;
     public Vector3 spawnPosition;
     
  

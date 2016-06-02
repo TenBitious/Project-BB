@@ -30,7 +30,11 @@ public class PlayerRespawn : MonoBehaviour {
         
         ground = groundTiles.GetComponentsInChildren<Ground>();
 
-        spawnPointIndex = Random.Range(0, ground.Length - 1);
+        do
+        {
+            spawnPointIndex = Random.Range(0, ground.Length - 1);
+        }
+        while (!ground[spawnPointIndex].canSpawn);
         setSpawnPoint = ground[spawnPointIndex];
         this.spawnPosition = setSpawnPoint.spawnPosition;
 
