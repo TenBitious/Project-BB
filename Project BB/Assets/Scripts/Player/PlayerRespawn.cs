@@ -10,12 +10,14 @@ public class PlayerRespawn : MonoBehaviour {
     private GameObject groundTiles;
     private Ground[] ground;
     private Ground setSpawnPoint;
+    private PlayerInfo m_PlayerInfo;
     private int spawnPointIndex;
 
 
 	// Use this for initialization
 	void Start () {
         player = this.gameObject;
+        m_PlayerInfo = GetComponent<PlayerInfo>();
         water = GameObject.FindGameObjectWithTag("Water");
         groundTiles = GameObject.FindGameObjectWithTag("GroundTiles");
 	}
@@ -30,19 +32,23 @@ public class PlayerRespawn : MonoBehaviour {
         
         ground = groundTiles.GetComponentsInChildren<Ground>();
 
+        // Search for a spawnpoint
         do
         {
             spawnPointIndex = Random.Range(0, ground.Length - 1);
         }
         while (!ground[spawnPointIndex].canSpawn);
+
         setSpawnPoint = ground[spawnPointIndex];
         this.spawnPosition = setSpawnPoint.spawnPosition;
 
         player.gameObject.transform.position = spawnPosition;
 
-
+        m_PlayerInfo.ResetPlayer();
         
     }
+
+
 
     void OnCollisionEnter(Collision col)
     {

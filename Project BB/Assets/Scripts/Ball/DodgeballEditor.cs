@@ -16,12 +16,19 @@ public class DodgeballEditor : Editor
         //blablabla
         base.OnInspectorGUI();
         _evCtrl.useGravity = EditorGUILayout.Toggle("Use Gravity", _evCtrl.useGravity);
-        if (_evCtrl.useGravity)
+        if (!_evCtrl.useGravity)
         {
             GUILayout.BeginHorizontal();
             GUILayout.Space(15);
-            GUILayout.Label("In Air Time", GUILayout.Width(70));
-            _evCtrl.inAirTime = EditorGUILayout.FloatField(_evCtrl.inAirTime);
+            _evCtrl.inAirTime = EditorGUILayout.FloatField(new GUIContent("In Air Time", "Between 0 and 100."), _evCtrl.inAirTime);
+            GUILayout.EndHorizontal();
+        }
+        _evCtrl.useVerticalVelocity = EditorGUILayout.Toggle("Use Vertical Velocity", _evCtrl.useVerticalVelocity);
+        if (_evCtrl.useVerticalVelocity)
+        {
+            GUILayout.BeginHorizontal();
+            GUILayout.Space(15);
+            _evCtrl.AngleForYAxis = EditorGUILayout.FloatField(new GUIContent("Angle For Y Axis", "Between 0 and 90 degree"), _evCtrl.AngleForYAxis);
             GUILayout.EndHorizontal();
         }
     }

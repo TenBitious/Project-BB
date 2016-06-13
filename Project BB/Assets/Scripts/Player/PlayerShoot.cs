@@ -34,6 +34,7 @@ public class PlayerShoot : MonoBehaviour {
         if (Input.GetButtonDown("Joy_" + m_Player_Info.PlayerNumber + "_Button_5"))
         {
             Shoot();
+            Debug.Log("Joy_" + m_Player_Info.PlayerNumber + "_Button_5");
         }
     }
 

@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.3294888, y: 2, z: -7.717119}
+  m_LocalPosition: {x: 4.14827, y: 0.55, z: -5.9132466}
   m_LocalScale: {x: 8.66361, y: 8.66361, z: 8.66361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -72,7 +72,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7ecce979f8d91864ab8f42d6083a1bdd, type: 2}
+  - {fileID: 2100000, guid: 9045ef07c9c973448b75e6a8da5aad3e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -102,7 +102,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111404}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 300
   m_Drag: 0.1
   m_AngularDrag: 10
   m_UseGravity: 0
@@ -123,9 +123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyTime: 1
   ballVelocity: {x: 0, y: 0, z: 0}
-  power: 5
+  power: 12
   useGravity: 1
   inAirTime: 0.5
+  useVerticalVelocity: 0
+  AngleForYAxis: 0
   unstoppable: 0
 --- !u!135 &13533890
 SphereCollider:

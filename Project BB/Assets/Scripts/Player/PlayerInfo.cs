@@ -7,6 +7,7 @@ public class PlayerInfo : MonoBehaviour {
 
     private PlayerState m_Player_State;
     public int playerNumber;
+    public float playerMass;
 
     private Rigidbody m_Rigidbody;
 
@@ -16,6 +17,7 @@ public class PlayerInfo : MonoBehaviour {
 	void Start () 
     {
         m_Rigidbody = GetComponent<Rigidbody>();
+        m_Rigidbody.mass = playerMass; // Set player's mass
         m_Player_State = PlayerState.normal;
 	}
 	
@@ -36,5 +38,15 @@ public class PlayerInfo : MonoBehaviour {
     {
         get { return m_Player_State; }
         set { m_Player_State = value; }
+    }
+
+
+    /// <summary>
+    /// Resets velocity and mass
+    /// </summary>
+    public void ResetPlayer()
+    {
+        m_Rigidbody.mass = playerMass;
+        m_Rigidbody.velocity = Vector3.zero;
     }
 }

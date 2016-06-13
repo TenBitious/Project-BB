@@ -1,53 +1,42 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent (typeof(Rigidbody), typeof(SphereCollider))]
 public class Dodgeball : MonoBehaviour
 {
+    // State of the ball
     public enum DodgeballState { active = 1, nonActive = 2, pickable = 3, hitObject};
     private DodgeballState m_State;
-    public DodgeballState State
-    {
-        get
-        {
-            return m_State;
-        }
-        set
-        {
-            m_State = value;
-        }
-    }
-    Rigidbody m_rigidBody;
-    public float destroyTime;
-    private string ownerName;
+
+    private Rigidbody m_rigidBody;
     private GameObject owner;
+    private string ownerName;
+
+    public float destroyTime;
     public Vector3 ballVelocity;
+    [Tooltip("Between 0 and 100")]
     public float power = 2;
     [HideInInspector]
     public bool useGravity = true;
     [HideInInspector]
     public float inAirTime = 1;
-
+    [HideInInspector]
+    public bool useVerticalVelocity = false;
+    [HideInInspector]
+    public float AngleForYAxis;
     public bool unstoppable = false;
-
-    // Use this for initialization
-    void Start()
-    {
-       // Destroy(gameObject, destroyTime);
-        
-    }
 
     void Awake()
     {
         m_State = DodgeballState.active;
         m_rigidBody = GetComponent<Rigidbody>();
-       // m_rigidBody.useGravity = useGravity;
+        m_rigidBody.useGravity = useGravity;
     }
 
     // Update is called once per frame
     void Update()
     {
         CheckAirTime();
-
     }
 
     private void CheckAirTime()
@@ -71,8 +60,7 @@ public class Dodgeball : MonoBehaviour
     {
         Debug.Log("Set ball nonactive");
         m_rigidBody.useGravity = true;
-        m_State = DodgeballState.nonActive;
-        
+        m_State = DodgeballState.nonActive;  
     }
 
     void OnCollisionEnter(Collision col)
@@ -85,20 +73,25 @@ public class Dodgeball : MonoBehaviour
             {
                 SetHitObject();
                 PlayerKnockBack pKB = col.gameObject.GetComponent<PlayerKnockBack>();
-                pKB.StartKnockBack(transform.position, m_rigidBody.velocity, power);
-                Debug.Log("Hit player");
+                pKB.StartKnockBack(power);
                 Destroy(this.gameObject);
             }
-            //Destroy(this.gameObject);
         }
     }
 
     public void SetVelocity(Vector3 p_velocity)
     {
-        m_rigidBody.velocity = p_velocity;
-       // velocityDir = p_velocity;
-
+        m_rigidBody.velocity = Quaternion.AngleAxis(-AngleForYAxis, new Vector3(p_velocity.z, 0, -p_velocity.x)) * p_velocity;
     }
-    public string OwnerName  { get { return this.ownerName; } set { this.ownerName = value; } }
+    public string OwnerName
+    {
+        get { return this.ownerName; }
+        set { this.ownerName = value; }
+    }
 
+    public DodgeballState State
+    {
+        get { return m_State; }
+        set { m_State = value; }
+    }
 }

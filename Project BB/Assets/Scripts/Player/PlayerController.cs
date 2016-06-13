@@ -48,8 +48,8 @@ public class PlayerController : MonoBehaviour {
         m_Horizontal_Axis_Left = Input.GetAxis("Joy_"+m_Player_Info.PlayerNumber+"_Axis_1");
         m_Vertical_Axis_Left = -Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_2");
 
-        m_Horizontal_Axis_Right = -Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_4");
-        m_Vertical_Axis_Right = Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_5");
+        m_Horizontal_Axis_Right = -Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_3");
+        m_Vertical_Axis_Right = Input.GetAxis("Joy_" + m_Player_Info.PlayerNumber + "_Axis_6");
     }
 
     public virtual void HandleMovement()
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour {
         m_Direction_Move *= movementSpeed;
 
         m_Player_Info.MyRigidbody.velocity = new Vector3(m_Direction_Move.x, m_Player_Info.MyRigidbody.velocity.y, m_Direction_Move.z);
-        Debug.Log("Direction_Move: " + m_Direction_Move + " Velocity: " + m_Player_Info.MyRigidbody.velocity);
+        //Debug.Log("Direction_Move: " + m_Direction_Move + " Velocity: " + m_Player_Info.MyRigidbody.velocity);
     }
 
     public virtual void GetRotation(float t_Axis_Vertical, float t_Axis_Horizontal)
