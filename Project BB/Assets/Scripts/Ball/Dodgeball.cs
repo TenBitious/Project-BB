@@ -53,7 +53,6 @@ public class Dodgeball : MonoBehaviour
         m_rigidBody.useGravity = true;
         if (!unstoppable) m_rigidBody.velocity = Vector3.zero;
         m_State = DodgeballState.hitObject;
-        //Debug.Log("Set ball hitobject");
     }
 
     private void SetNonActive()
@@ -65,10 +64,8 @@ public class Dodgeball : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        //Debug.Log(col.gameObject.name);
         if (m_State == DodgeballState.active)
         {
-            
             if (col.gameObject.tag == "Player" && col.gameObject.name != OwnerName)
             {
                 SetHitObject();

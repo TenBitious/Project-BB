@@ -13,6 +13,7 @@ public class PlayerShoot : MonoBehaviour {
     public float ballSpeed;
 
     private PlayerInfo m_Player_Info;
+    private float reloadTime = 0;
 
 	// Use this for initialization
 	void Start () 
@@ -25,7 +26,8 @@ public class PlayerShoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        CheckInput();
+        if (reloadTime > 0) reloadTime-= Time.deltaTime;
+        else CheckInput();
         ball_Start_Location = GetComponentInChildren<ShootLocation>().transform.position;
 	}
 
@@ -33,8 +35,10 @@ public class PlayerShoot : MonoBehaviour {
     {
         if (Input.GetButtonDown("Joy_" + m_Player_Info.PlayerNumber + "_Button_5"))
         {
-            Shoot();
-            Debug.Log("Joy_" + m_Player_Info.PlayerNumber + "_Button_5");
+            if (m_Player_Info.MyPlayerState == PlayerInfo.PlayerState.normal)
+            {
+                Shoot();
+            }
         }
     }
 
@@ -44,7 +48,7 @@ public class PlayerShoot : MonoBehaviour {
         b = Instantiate(ball_Current, ball_Start_Location, this.transform.rotation) as Dodgeball;
         Vector3 t_Ball_Velocity = -this.transform.forward * ballSpeed;
         b.SetVelocity(t_Ball_Velocity);
-        Debug.Log("Ball Vel: " + t_Ball_Velocity);
+        reloadTime = m_Player_Info.ReloadTime;
     }
    
 

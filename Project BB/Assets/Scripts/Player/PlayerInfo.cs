@@ -3,11 +3,13 @@ using System.Collections;
 
 public class PlayerInfo : MonoBehaviour {
 
-    public enum PlayerState { normal = 1, stunned = 2, knockback = 3 }
+    public enum PlayerState { normal = 1, dash = 2, knockback = 3 }
 
     private PlayerState m_Player_State;
     public int playerNumber;
     public float playerMass;
+    public float dashPower;
+    public float reloadTime;
 
     private Rigidbody m_Rigidbody;
 
@@ -26,14 +28,10 @@ public class PlayerInfo : MonoBehaviour {
 	
 	}
 
-    public int PlayerNumber
-    {
-        get { return playerNumber; }
-    }
-    public Rigidbody MyRigidbody
-    {
-        get { return m_Rigidbody; }
-    }
+    public int PlayerNumber { get { return playerNumber; } }
+    public float DashPower { get { return dashPower; } }
+    public float ReloadTime { get { return reloadTime; } }
+    public Rigidbody MyRigidbody { get { return m_Rigidbody; } }
     public PlayerState MyPlayerState
     {
         get { return m_Player_State; }

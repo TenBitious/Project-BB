@@ -475,17 +475,16 @@ Prefab:
       value: Player (1)
       objectReference: {fileID: 0}
     - target: {fileID: 11463966, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
-      propertyPath: playerNumber
-      value: 2
+      propertyPath: dashPower
+      value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 11405540, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
-      propertyPath: Ball
-      value: 
-      objectReference: {fileID: 11462006, guid: ef3668384ea506b44bafa417e758b31e,
-        type: 2}
     - target: {fileID: 5401144, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
-      propertyPath: m_Constraints
-      value: 112
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463966, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
+      propertyPath: reloadTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
@@ -2228,6 +2227,22 @@ Prefab:
     - target: {fileID: 429622, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463966, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
+      propertyPath: dashPower
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463966, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
+      propertyPath: playerNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401144, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
+      propertyPath: m_Drag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463966, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}
+      propertyPath: reloadTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4caf8a8dcd76a4b4ab98c894e3fd3479, type: 2}

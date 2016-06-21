@@ -5,23 +5,28 @@ public class PlayerKnockBack : MonoBehaviour {
 
     private readonly float MIMIMUNVEL = 0.1f;
 
-    private PlayerInfo m_PlayerInfo;
+    private PlayerInfo m_Player_Info;
 	// Use this for initialization
 
 	void Start () 
     {
-        m_PlayerInfo = GetComponent<PlayerInfo>();
+        m_Player_Info = GetComponent<PlayerInfo>();
 	}
 
     void FixedUpdate()
     {
-        if (m_PlayerInfo.MyPlayerState == PlayerInfo.PlayerState.knockback)
-        { 
-            if (m_PlayerInfo.MyRigidbody.velocity.magnitude <= MIMIMUNVEL)
+        if (m_Player_Info.MyPlayerState == PlayerInfo.PlayerState.knockback)
+        {
+            if (HorizontalVelocityMagnitude() <= MIMIMUNVEL)
             {
                 EndKnockback();
             }
         }
+    }
+    private float HorizontalVelocityMagnitude()
+    {
+        Vector3 playerVelocity = m_Player_Info.MyRigidbody.velocity;
+        return new Vector3(playerVelocity.x, 0, playerVelocity.z).magnitude;
     }
 
     public void StartKnockBack(float ballPower)
@@ -30,12 +35,11 @@ public class PlayerKnockBack : MonoBehaviour {
         this.GetComponent<Rigidbody>().mass *= (100 - ballPower)/100;
 
         //Set Playerstate
-        m_PlayerInfo.MyPlayerState = PlayerInfo.PlayerState.knockback;
+        m_Player_Info.MyPlayerState = PlayerInfo.PlayerState.knockback;
     }
 
     void EndKnockback()
     {
-        Debug.Log("End Knockback");
-        m_PlayerInfo.MyPlayerState = PlayerInfo.PlayerState.normal;
+        m_Player_Info.MyPlayerState = PlayerInfo.PlayerState.normal;
     }
 }

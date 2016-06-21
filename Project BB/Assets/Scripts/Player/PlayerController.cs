@@ -71,5 +71,8 @@ public class PlayerController : MonoBehaviour {
         //Debug.Log("Direction m:" + m_Direction_Rotate);
     }
 
-
+    public Vector3 DirectionMove
+    {
+        get { return m_Direction_Move; }
+    }
 }
